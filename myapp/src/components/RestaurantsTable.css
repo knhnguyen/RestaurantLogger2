@@ -1,0 +1,31 @@
+/* styles.css */
+
+.restaurantTable {
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  .restaurantTable th,
+  .restaurantTable td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+
+
+  /* Styles for the delete button */
+.deleteButton {
+  background-color: #ff5757; /* Red background color */
+  color: white; /* White text color */
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Change the background color on hover */
+.deleteButton:hover {
+  background-color: #ff0000; /* Darker red on hover */
+}
